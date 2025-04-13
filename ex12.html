@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum</title>
+</head>
+<body>
+    <!-- & Classes and IDs
+        ~ class and id are attributes and any element can use them
+        ~ class and is are used for labeling elements
+    -->
+    <!-- ~ Class element -->
+    <p class="first-value-second-value-third-value">Hello, World</p>
+    <!-- ~ Each element can have only one id with no spaces and must be unique -->
+    <p id="value">Hello, World</p>
+    <!--
+        ~ id can be used to link to another part of the page,such as a heading
+        ~ can be matched with an <a> anchor elements href attribute via # hashtag symbol followed by an identifier used for the id
+    -->
+    <a href="#medellin">Link To Medellin</a>
+    <h2 class="city" id="medellin">Medellin 🇨🇴</h2>
+
+    <!--
+        ~ Only one id can be assigned to a single element
+        ~ a class can be assigned to many
+    -->
+    <h2 class="city" id="medellin">Medellin 🇨🇴</h2>
+    <h2 class="city" id="lisbon">Lisbon 🇵🇹</h2>
+    <h2 class="city" id="bali">Bali 🇲🇨</h2>
+
+    <!--
+        ~ the value for the class and id attributes must always be lowercase -> if name is made of multiple words then should be separated by dashes (-)
+        ~ way to remember class vs id -> a class can have multiple students, but each student has a unique id
+    -->
+
+    <!--
+        & Division Element
+        ~ to create sections for a page is with a <div> element (short for division)
+        ~ <div> is like a generic container
+        ~ this element and the class and id attributes go hand in hand
+    -->
+    <div class="page-section" id="about-me">
+        <h2>About Me</h2>
+        <p>Ness is an aspiring web developer!</p>
+    </div>
+    <div class="page-section" id="social-media">
+        <h2>Social:</h2>
+        <ul>
+            <li>GitHub</li>
+            <li>Twitter</li>
+            <li>LinkedIn</li>
+        </ul>
+    </div>
+</body>
+</html>
